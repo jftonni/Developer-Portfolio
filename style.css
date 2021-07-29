@@ -1,8 +1,12 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
 .first{
     color: coral;
 }
-section{
+.flex{
     display: flex;
+    margin-bottom: 10px;
 }
 .second{
     width: 50%; padding-left: 5%;
@@ -11,6 +15,44 @@ section{
     width: 100%;
 }
 .link-button{ text-decoration: none; background-color: orangered;
-padding: 8px 15px; border-radius: 5px; background-image: linear-gradient(orange tomato); color: cornsilk;
+padding: 8px 15px; border-radius: 5px; background-image: linear-gradient(orange, tomato); color: cornsilk;
 
 font-weight: 1000;}
+.link-button:hover{
+    background-image: linear-gradient(tomato,grey);
+}
+.link-button:focus{
+    background-image: linear-gradient(violet, navy);
+}
+.top-bannar{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+}
+body{
+    margine: 0;
+}
+.learn-button{
+    text-decoration: none; background-image: linear-gradient(tomato, gray); color: black; padding: 10px 18px;
+    border-radius: 15px; font-weight: 800;
+}
+#top{
+    background-image: url(image/dream-bg.png); background-repeat: no-repeat;
+    background-position: right;
+}
+.last-section{
+    color: chartreuse;
+}
+.flexible{ display: flex;}
+.box{
+    box-shadow: 10px 10px 10px pink; margin-left: 80px; width: 35%; 
+}
+.finish{
+    background-image: url(image/exp-bg.png); background-repeat: no-repeat; background-position: left;}
+    #stak{border: 5px solid; border-image: linear-gradient(violet, green);
+        border-image-slice: 2;} 
+#baby{
+    border left: 5px solid; border-image: linear-gradient(violet, navy); border-image-slice:2;
+}
+    footer p{
+        text-align: center;
+    }
